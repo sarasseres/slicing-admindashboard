@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tables</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="../../Asset/css/all.min.css">
+
+
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <h4 class="font-weight-bold mb-0">Dashboard Kit</h4>
+        <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="ti-view-list"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+            <div class="input-group">
+              <div class="input-group-prepend hover-cursor" id="navbar-search-icon">
+                <span class="input-group-text" id="search">
+                  <i class="ti-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" id="navbar-search-input" placeholder="Search now" aria-label="search" aria-describedby="search">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown mr-1">
+            <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+              <i class="ti-email mx-0"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                    <img src="../../images/faces/face4.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="item-content flex-grow">
+                  <h6 class="ellipsis font-weight-normal">David Grey
+                  </h6>
+                  <p class="font-weight-light small-text text-muted mb-0">
+                    The meeting is cancelled
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                    <img src="../../images/faces/face2.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="item-content flex-grow">
+                  <h6 class="ellipsis font-weight-normal">Tim Cook
+                  </h6>
+                  <p class="font-weight-light small-text text-muted mb-0">
+                    New product launch
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                    <img src="../../images/faces/face3.jpg" alt="image" class="profile-pic">
+                </div>
+                <div class="item-content flex-grow">
+                  <h6 class="ellipsis font-weight-normal"> Johnson
+                  </h6>
+                  <p class="font-weight-light small-text text-muted mb-0">
+                    Upcoming board meeting
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+              <i class="ti-bell mx-0"></i>
+              <span class="count"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                  <div class="item-icon bg-success">
+                    <i class="ti-info-alt mx-0"></i>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h6 class="font-weight-normal">Application Error</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Just now
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                  <div class="item-icon bg-warning">
+                    <i class="ti-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h6 class="font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item">
+                <div class="item-thumbnail">
+                  <div class="item-icon bg-info">
+                    <i class="ti-user mx-0"></i>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h6 class="font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="../../images/faces/face28.jpg" alt="profile"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+              <a class="dropdown-item">
+                <i class="ti-settings text-primary"></i>
+                Settings
+              </a>
+              <a class="dropdown-item">
+                <i class="ti-power-off text-primary"></i>
+                Logout
+              </a>
+            </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="ti-view-list"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">
+              <i class="ti-shield menu-icon"></i>
+              <span class="menu-title">Overview</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="fas fa-ticket-alt"></i>
+              <span class="menu-title">Tickets</span>
+              <i class="menu-arrow"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="../../pages/charts/chartjs.html"> -->
+              <i class="far fa-lightbulb"></i>
+              <span class="menu-title">Ideas</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="../../pages/tables/basic-table.html"> -->
+              <i class="far fa-id-card"></i>
+              <span class="menu-title">Contact</span>
+              <i class="menu-arrow"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="../../pages/icons/themify.html"> -->
+              <i class="fas fa-user-friends"></i>
+              <span class="menu-title">Agent</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth"> -->
+              <i class="fas fa-cogs"></i>
+              <span class="menu-title">Setting</span>
+              <i class="menu-arrow"></i>
+            </a>
+          
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="../../documentation/documentation.html"> -->
+              <i class="fas fa-medal"></i>
+              <span class="menu-title">Subscription</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-6 grid-margin stretch-card">
+          
+            </div>
+            <div class="col-lg-6 grid-margin stretch-card">
+              <div class="card">
+               
+              </div>
+            </div>
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">All Ticket</h4>
+                  <p class="card-description">
+                    </code>
+                  </p>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th class=text-muted>
+                            Ticket details
+                          </th>
+                          <th class=text-muted>
+                            Customer name
+                          </th>
+                          <th class=text-muted>
+                            Date
+                          </th>
+                          <th class=text-muted> 
+                            Priority
+                          </th>
+                          <th>
+                       
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face1.jpg" alt="image"/>
+                            <span>Contact Email not Linked</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 1 day ago</span>
+                          </td>
+                          <td>
+                            Herman Beck
+                          </td>
+                          <td>
+                            May 26, 2019
+                          </td>
+                          <td>
+                            <button style=" background: #F12B2C;
+                            border-radius: 100px; border: none;
+                            ">HIGH</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face2.jpg" alt="image"/>
+                            <span>Adding Images to Featured Posts</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 1 day ago</span>
+                          </td>
+                          <td>
+                            Messsy Adam
+                          </td>
+                          <td>
+                            May 26, 2019
+                          </td>
+                          <td>
+                            <button style=" background:  #FEC400;;
+                            border-radius: 100px; border: none;
+                            ">LOW</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i> 
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face3.jpg" alt="image"/>
+                            <span>When will I be charged this month?</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 1 day ago</span>
+                          </td>
+                          <td>
+                            John Richards
+                          </td>
+                          <td>
+                            May 26, 2019
+                          </td>
+                          <td>
+                            <button style=" background: #F12B2C;
+                            border-radius: 100px; border: none;
+                            ">HIGH</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face4.jpg" alt="image"/>
+                            <span>Payment not going through</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 2 day ago</span>
+                          </td>
+                          <td>
+                            Peter Meggik
+                          </td>
+                          <td>
+                            May 25, 2019
+                          </td>
+                          <td>
+                            <button style=" background:  #29CC97;
+                            border-radius: 100px; border: none;
+                            ">Urgent</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face5.jpg" alt="image"/>
+                            <span>Unable to add replies</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 2 day ago</span>
+                          </td>
+                          <td>
+                            Edward
+                          </td>
+                          <td>
+                            May 25, 2019
+                          </td>
+                          <td>
+                            <button style=" background: #F12B2C;
+                            border-radius: 100px; border: none;
+                            ">HIGH</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face6.jpg" alt="image"/>
+                            <span>Downtime since last week</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 3 day ago</span>
+                          </td>
+                          <td>
+                            John Doe
+                          </td>
+                          <td>
+                            May 25, 2019
+                          </td>
+                          <td>
+                            <button style=" background:  #29CC97;
+                            border-radius: 100px; border: none;
+                            ">Normal</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face7.jpg" alt="image"/>
+                            <span>Referral Bonus</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 4 day ago</span>
+                          </td>
+                          <td>
+                            Henry Tom
+                          </td>
+                          <td>
+                            May 25, 2019
+                          </td>
+                          <td>
+                            <button style=" background:  #FEC400;
+                            border-radius: 100px; border: none;
+                            ">LOW</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            <img src="../../images/faces/face8.jpg" alt="image"/>
+                            <span>How do I change my password?</span>
+                            <span class=text-muted style="display:block; margin-left: 39px;">Updated 6 day ago</span>
+                          </td>
+                          <td>
+                            Henry Tom
+                          </td>
+                          <td>
+                            May 24, 2019
+                          </td>
+                          <td>
+                            <button style=" background:  #29CC97;
+                            border-radius: 100px; border: none;
+                            ">Urgent</button>
+                          </td>
+                          <td>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+       
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/template.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
+</body>
+
+</html>
